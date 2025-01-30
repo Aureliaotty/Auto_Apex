@@ -1,0 +1,126 @@
+
+  /* Add your CSS styles here */
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+  }
+
+  header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .logo {
+      display: flex;
+      align-items: center;
+  }
+
+  .logo img {
+      height: 50px;
+      margin-right: 10px;
+  }
+
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+  }
+
+  nav ul li {
+      margin-left: 20px;
+  }
+
+  nav ul li a {
+      color: #fff;
+      text-decoration: none;
+  }
+
+  #hero {
+      position: relative;
+      height: auto;
+      overflow: hidden;
+  }
+
+  .hero-image img {
+      width: 1000px;
+      height: 400px;
+      object-fit: cover;
+  }
+
+  .hero-text {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #0d0d0e;
+  }
+
+  .hero-text h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+  }
+
+  .hero-text button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+  }
+
+  .service-container, .vehicle-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+  }
+
+  .service, .vehicle {
+      width: 300px;
+      margin: 20px;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      padding: 20px;
+  }
+
+  .service img, .vehicle img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border-radius: 5px;
+  }
+
+  #about, #contact {
+      padding: 40px;
+      text-align: center;
+      background-color: #fff;
+  }
+
+  .contact-info {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+
+  .contact-info > div {
+      margin: 0 20px;
+  }
+
+  footer {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+  }
